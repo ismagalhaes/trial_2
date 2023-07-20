@@ -1,0 +1,10 @@
+how to make a new repository in Git and GitHub
+On GitHub press go to the repositories tab and  click "create new repository"
+Give the repository a name, decide whether you want to make a readme file, or other options and then "accept"
+In the following page copy the SSH
+Choose the folder where you want the repository to be on your computer
+In that folder right click and do "Git Bash Here", this will open the Git command line terminal and write:
+git clone SSH_address_copied_from_GitHub
+put whatever files you want in the folder (like this one)
+
+
