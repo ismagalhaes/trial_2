@@ -6,5 +6,13 @@ Choose the folder where you want the repository to be on your computer
 In that folder right click and do "Git Bash Here", this will open the Git command line terminal and write:
 git clone SSH_address_copied_from_GitHub
 put whatever files you want in the folder (like this one)
-
+go to the folder with:
+cd trial_2
+git remote  # tells the origin
+git status # tells what is going on
+Now we need to commit this file , it involves the following stages:
+1) git add filename
+2)git status # should say a file has been added
+3)git commit -m "message for what you are commiting"
+4) git push origin main # pushes the commit so it turns up on GitHub
 
